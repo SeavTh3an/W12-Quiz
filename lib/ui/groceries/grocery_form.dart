@@ -96,7 +96,7 @@ class _NewItemState extends State<NewItem> {
                 Expanded(
                   child: DropdownButtonFormField<GroceryCategory>(
                     initialValue: _selectedCategory,
-                    items: GroceryCategory.values.map(Category){
+                    items: GroceryCategory.values.map(){
                       
                     },
                     onChanged: (value) {
